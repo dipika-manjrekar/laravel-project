@@ -1,0 +1,12 @@
+.loading:not(:required):after {
+		position: fixed;
+		  content: '';
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	
+	background: url(/laravel-dms/public/loading/loading.gif) 50% 50% no-repeat hsla(0, 0%, 0%, 0.9);
+}
+

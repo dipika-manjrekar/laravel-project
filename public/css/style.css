@@ -1,0 +1,1158 @@
+.imp{
+	
+	margin:0 auto;
+}
+.position{
+	float:right;
+	
+}
+.newbtn{
+
+font-size: 13px;
+/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+/*font-weight: 600;*/
+letter-spacing: normal;
+
+}
+
+  .btn-label{  
+  	 background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    /* margin: -14px 12px -13px -13px; */
+  margin: -18px 8px -8px -12px;
+padding: 7px 15px;
+ }
+ 
+    .btn-labelheader{   
+ background: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    /* margin: -14px 12px -13px -13px; */
+    margin: 0px 8px -8px -11px;
+    padding: 4px 15px;
+ }
+ 
+  .btn-label3{  
+ background: rgba(0, 0, 0, 0.2);
+display: inline-block;
+margin: -14px 12px -13px -13px;
+margin: -17px -12px -6px 5px;
+padding: 5px 12px;
+ }
+ 
+ .btnimgheight{
+ 	height:16px;
+ 	
+ }
+.breadcrumbbg{
+	background-color:#ffffff;
+	margin-top:-13px;
+	margin-bottom:3px;
+	padding-top:5px;
+	border-bottom: 1px solid #d4d4d4;
+}
+
+.paddright{
+	padding-right:5px;
+	
+}
+.paddleft{
+	padding-left:5px;
+	
+}
+
+.col-12-right{
+	padding-right:10px;
+}
+
+.col-4-right{
+	
+	padding-right:0px;
+}
+
+.col-4-left{
+	padding-left:5px;
+}
+
+.nav-right{
+	padding-left:1px;
+}
+
+.nav-verticalbodypadding{
+	height: 100vh;
+	padding: 0.2rem;
+	
+}
+
+.table td {
+    padding: 0.1rem 0.2rem ;
+	word-break:break-all;
+    
+}
+table.table-bordered.dataTable th{
+	
+	font-size:12px;
+	color:#555;
+	
+}
+table.table-bordered.dataTable td{
+	
+	font-size:13px !important;
+	
+}
+
+input[type='checkbox'] {
+	/* Hide the checkbox input ui */
+	opacity: 0;
+	
+}
+
+.dataTables_length select.form-control:not([size]):not([multiple]){
+	height: calc(1.45rem + 2px);
+	margin-top: 0px;
+	
+}
+.tablesearch{
+	
+	padding: 0.3rem 0.75rem;
+}
+
+.paginationsize{
+	
+	padding: 0.3rem 0.55rem;
+}
+	
+			/*div.dataTables_scrollHeadInner {
+
+				width: 100% !important;
+			}
+
+			div.dataTables_scrollHeadInner table {
+
+				width: 100% !important;
+			}*/
+		
+	table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td{
+		word-break: break-all;
+		
+		
+	}
+	
+	.imgbtn{
+		border:0px;
+		cursor: pointer;
+		background-color:transparent;
+		
+	}	
+	.tdbutton{
+		border:0px;
+		cursor: pointer;
+		background-color:transparent;
+		color:#3bafda;
+		/*border-bottom: 1px solid;	*/
+		margin-left: 8px;	
+	}
+	.tdbuttonmargin{
+		
+		margin-left:-10px;
+	}
+	
+	a.disabled {
+		pointer-events: none;
+		cursor: default;
+		opacity: 0.2;
+		
+		}
+	
+	.treeviewscroll{
+		
+		overflow: auto;
+	}	
+	
+	
+.card-header .heading-elements .modalbtn{
+	padding-top: 0px;
+padding-bottom: 6px;
+	
+}
+	
+.headerbtnleft{
+	
+margin-right:10px;	
+}
+	
+	.imgresp{
+	height:18px;
+	
+}
+
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 87vh;
+  
+  min-height: 0;
+  overflow:hidden;
+}
+
+.frame {
+  flex: 1 1 auto;
+  border: 0;
+  width:100%;
+}
+
+
+.tabletdtooltip {
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+.hideText2{
+  max-width:170px;
+  margin-left:-8px;
+}
+
+
+table.dataTable thead > tr > th.thtooltipwd{
+	 min-width:150px !important;
+	
+}
+
+
+
+	.fixed1 {
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.fixed2 {
+		display: flex;
+		flex-direction: column;
+		height: 100%;
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+
+	.fixed3 {
+		flex: 1;
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+.blanktitle{
+	height: 20px;
+}
+
+.searchbutton{
+	
+	padding: 0.3rem 0.75rem;
+}
+
+.btn_cen{
+	text-align:center;
+}
+td >span.ffavourite{
+
+	 background-image: url("../images/icon/stargolden.png");
+	   background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 15px 15px; 
+cursor: pointer;
+padding:0px 10px;
+	
+}
+td >span.unfavourite{
+	
+	 background-image: url("../images/icon/starblack.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 15px 15px; 
+cursor: pointer;
+padding:0px 10px;
+}
+
+
+.tablecount{
+	
+	text-align: center; 
+	margin-top: -16px;
+	 font-size: 13px;
+	 letter-spacing:0px;	  
+}
+
+.menuicon{
+	margin-top:3px;
+	height:20px;
+}
+
+
+.pdf, .PDF{
+		 background-image: url("../images/icon/pdf.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 16px 18px; 
+padding:3px 10px;
+	
+}
+
+.doc, .docx, .DOC, .DOCX{
+		 background-image: url("../images/icon/word.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 16px 18px; 
+padding:0px 10px;
+	
+}
+
+.xlsx, .xls, .XLSX, .XLS{
+		 background-image: url("../images/icon/excel.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 16px 18px; 
+padding:0px 10px;
+	
+}
+.odt, .ODT, .dwg, .DWG{
+		 background-image: url("../images/icon/default.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 16px 18px; 
+padding:1px 10px;
+	
+}
+.gif, .jpeg, .png, .jpg, .GIF, .JPEG, .PNG, .JPG, .txt, .TXT{
+		 background-image: url("../images/icon/image.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 16px 18px; 
+padding:0px 10px;
+	
+}
+.folder{
+		 background-image: url("../images/icon/folder.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 16px 18px; 
+padding:0px 10px;
+	
+}
+
+.metadata{
+	
+		 background-image: url("../images/icon/metadata18x18.png");
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+background-size: 18px 18px; 
+padding:0px 10px;
+}
+
+.metadatabutton{
+	height:18px;
+	width:18px; /* priyanka(15-0-18) */
+}
+
+.formbuilderbtn{
+	padding: 0.7em 0.2rem;
+	text-align:left;
+}
+
+.btnbottom{
+	margin-bottom:15px;
+}
+
+.menu-item{
+	
+	color:#ffffff !important;
+}
+
+
+
+
+/* Apply custom images - size your images according to text and stuff */
+/* Take any custom image you want and encode it with http://websemantics.co.uk/online_tools/image_to_data_uri_convertor/ or alike */
+input[type='checkbox'] + span{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAEbgAABG4B0KOyaAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAACLSURBVDiN7Y4hDoNAAAR3rxeCxyBaX15ADsG3SPhAU9tP3RP4AgZbQbLZKlQNtJbxM7t0398kjQYqA2/sowz2cpEeUdIo6VXkPO2UAQBrSg1iHIKB6qgMAEXOk8k6HLj9hW2FX+WNM3AGtkD5h88Q7GVNqTlqrl13JznTbXtVjIPJ2rb2LpOco/38ABW9OK5LzYh0AAAAAElFTkSuQmCC) no-repeat center left;
+	padding-left: 18px;
+	margin-left: -18px;
+	padding-bottom:1px;
+	
+}
+input[type='checkbox']:checked + span{
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAAEbgAABG4B0KOyaAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAFiSURBVDiNlZAxSyNRFIW/+3wTBBvRxsK12kLBWsmMSbkLu62dYB2xsBQE0UIQO5HdztY/4A/YJiEZxHpdsFOLNO52C0nmzbGKmMTI5JTn3e++c4+pWv0UQjgQzAv+U0zTTnqeCuHUhxAOQggXpVbrriAMQLdcXsH7fSeYnxQGKLVadzJbcBPEHpGk4ApPm7ksSc47cfz5re2L8iFJfgI1B3PAdt8fTbC6Whq2skrlWFAD0qjTqb19G1iQVatJb3b2vhfHa32vlyQ7SEfAb5/n37m9Hehs4ASTtoAlnPuVVSqbluczZvZD8Bhl2VfS9O9wuoEEU43GLmYXwAzStcyugH/K8y+k6dNoM8MdSPL1+h5mh0AEZMrzb6Vm88978MgJr2a9ftLb2Gib9BA1mzfj4LELAKJG4/IjsC8HTBcZHCNzTnrulssrk5LdOF42s7ZpfX0xeL8vswVJoejPZtb20tkLKyaJLiCC000AAAAASUVORK5CYII=) no-repeat center left;
+}
+
+/* Compatibility: pretty much all browsers except IE prior version 8 */
+
+/* Added by priya(11-10-18) for field button */
+/* * {
+	margin: 0;
+	padding: 0;
+} */
+
+#container {
+	position: relative;
+	text-align: left;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 5px;
+	border-radius: 5px
+}
+#container,
+#footer {
+	margin: 0 auto 10px auto;
+	width: 900px
+}
+.clearfix,
+#stage {
+	display: inline-block
+}
+
+.clearfix[class],
+#stage[id] {
+	display: block
+	}
+
+* html .clearfix,
+* html #stage {
+	height: 1%;
+	overflow: visible
+}
+
+*+html .clearfix,
+*+html #stage {
+	min-height: 1%
+}
+
+.clearfix:after,
+#stage:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden
+}
+a.button,
+button.button,
+.text .button {
+	display: inline-block;
+	margin: 0 .7em 0 0;
+	padding: 5px 10px 6px 10px;
+	border: 1px solid #dedede;
+	border-right: 1px solid #bbb;
+	border-bottom: 1px solid #bfbfbf;
+	 background-color: #FFF; /*priya(12-10-18)*/
+	background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#E9E9E9));
+	background: -webkit-linear-gradient(top, #FFF, #E9E9E9);
+	background: -o-linear-gradient(top, #FFF, #E9E9E9);
+	font-family: "Lucida Grande", Tahoma, Arial, sans-serif;
+	font-size: 100%;
+	line-height: 130%;
+	color: #464646;
+	cursor: pointer;
+	text-decoration: none;
+	border-radius: 11px;
+	background-clip: padding-box;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px
+}
+
+/* build css */
+
+
+#addFields {
+	clear: both;
+	/* width: 338px; */
+	/* padding: 15px 12px 15px 19px */
+	/* padding: 15px 12px 15px 0px; priya(16-11-18)*/
+}
+
+#addFields h3 {
+	clear: both;
+	font-size: 11px;
+	padding: 4px 0px;
+	font-weight: bold
+}
+
+.stand {
+	color: #236ABF !important
+}
+
+.fancy {
+	color: #CF3B19 !important
+}
+
+#addFields ul {
+	list-style: none;
+	width: 49%;
+	margin: 5px 0 7px 0
+}
+#addFields a {
+	font-size: 95%;
+	/* padding: 4px 0 4px 34px; priya(11-10-18)*/
+	display: block;
+	position: relative;
+	border: 1px solid #eee;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 9px;
+	background-clip: padding-box
+	border: 1px solid;
+}
+
+#addFields a:hover {
+	background: #DFEEA3;
+	border: 1px solid #C6D880;
+	color: #444
+}
+
+#addFields a:active {
+	background: #C1DF5D;
+	border: 1px solid #93B825;
+	color: #333
+}
+
+#addFields a b {
+	line-height: 16px;
+	width: 18px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	left: 8px;
+	background-image: url(../../../../images/icons/sprite.png);
+	background-repeat: no-repeat
+}
+
+#addFields .notice {
+	text-align: center !important;
+	margin: 0 0 15px 0;
+	padding: 10px;
+	display: inline-block
+}
+
+#addFields .notice[class] {
+	display: block
+}
+#addFields ul {
+	list-style: none;
+	width: 49%;
+	margin: 5px 0 7px 0
+}
+#addFields a {
+	font-size: 95%;
+	/* padding: 4px 0 4px 34px; hide by priya(11-10-18)*/
+	padding:3px 0 3px 10px;/* priya(11-10-18) */
+	display: block;
+	position: relative;
+	/* border: 1px solid #eee; */
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+	border-radius: 9px;
+	background-clip: padding-box;
+	border:1px solid #a6a6a6; /* priya(16-10-18) */
+}
+
+#addFields a:hover {
+	background: #e6e6e6; /* priya(16-10-18) */
+	/* border: 1px solid #e6e6e6; priya(16-10-18) */
+	border: 1px solid #bfbfbf;
+	color: #444
+}
+
+#addFields a:active {
+	background: #e6e6e6; /* priya(16-10-18) */
+	border: 1px solid #bfbfbf; /* priya(16-10-18) */
+	color: #333
+}
+
+#addFields a b {
+	line-height: 16px;
+	width: 18px;
+	height: 16px;
+	display: inline-block;
+	position: absolute;
+	left: 8px;
+	background-image: url(../../../../images/icons/sprite.png);
+	background-repeat: no-repeat
+}
+
+a#sb {
+	border: 1px solid #C2E1EF;
+	/* background: #DFF4FF; */
+	background:#e6e6e6;/* priya(11-10-18) */
+	 
+	/* text-align: center;priya(11-10-18) */
+	/* color: #336699;priya(11-10-18) */
+	color:#464646;
+	/* padding-left: 0 */
+	padding-left:25px;/* priya(11-10-18) */
+}
+
+a#pb {
+	border: 1px solid #EFD1D1;
+	/* background: #FFE5E3; */ 
+	background:#e6e6e6;/* priya(11-10-18) */
+	
+	/* text-align: center; priya(11-10-18) */
+	/* color: #AF2B2B;priya(11-10-18) */
+	color:#464646;
+	/* padding-left: 0 */
+	padding-left: 25px;/* priya(11-10-18) */ 
+}
+
+#col1,
+#col3 {
+	float: left
+}
+#col1 li,
+#col3 li {
+	/* margin: 0 0px 6px 0 */
+	margin: 0 0px 12px 0;/* priya(11-10-18) */
+}
+
+#col2,
+#col4 {
+	float: right;
+	
+}
+
+#col2 li,
+#col4 li {
+	/* margin: 0 0px 6px 0 */
+	margin: 0 0px 12px 0;/* priya(11-10-18) */
+}
+
+.col_pad{
+	padding: 0;
+}
+
+.grad1 {
+    /* height: 300px;
+    width:5px;
+    background-image: linear-gradient(to right, #f5af24 ,  #f6bb42);  */
+	height: 200px;
+    width:2px;
+    background-image: linear-gradient(to right, #8c8c8c,   #cccccc);
+}
+
+}
+/* Added by priya(11-10-18) for field button */
+
+.icon_wid{
+	min-width:8.8px !important; /* priya(12-10-18) */
+}
+
+/* Added by priya(12-10-18) for seperator gradient */ 
+
+.example {
+    /* Regular borders as a fallback for IE8 and lower. */
+    border: solid #00f; border-width: 0 1px;
+
+    /* To be able to position generated content. */
+    position: relative;
+
+    /* Some irrelevant general styles. */
+    margin: 0 auto;
+   /*  padding: 0 20px; */
+   /*padding: -1px 20px; *//* priya(16-10-18) */
+   padding: 0px 0px; /* sanjay(30-10-18) */
+    width: 200px;
+}
+
+/* Instead of this IE9+ hack (valid one though), it's recommended
+   to use IE's conditional comments. JsFiddle just seems to lack
+   support for conditional comments in HEAD section of HTML document. */
+BODY:last-child .example {
+    /* Resetting borders for IE9+ and modern browsers that support gradients. */
+    border: none;
+}
+
+.example:before,
+.example:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 1px;
+    height: 100%;
+}
+
+.example:before {left: 0; }
+.example:after { right: 0;  
+	/* right: 60px; /* priya(16-10-18) */
+	}
+
+
+/* See http://www.colorzilla.com/gradient-editor/ for CSS-gradient generator. */
+.example:before,
+.example:after {
+    /* SVG gradient image as Data URI for IE9 that does not support CSS gradients. */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2QwZTRmNyIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI0JSIgc3RvcC1jb2xvcj0iIzczYjFlNyIgc3RvcC1vcGFjaXR5PSIwLjQ4Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzBjMTBmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijc5JSIgc3RvcC1jb2xvcj0iIzUzOWZlMSIgc3RvcC1vcGFjaXR5PSIwLjQyIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM4N2JjZWEiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(208,228,247,0) 0%, rgba(115,177,231,0.48) 24%, /* rgba(12,16,255,1) */ #999999 /* priya(15-10-18) */ 50%, rgba(83,159,225,0.42) 79%, rgba(135,188,234,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(208,228,247,0)), color-stop(24%,rgba(115,177,231,0.48)), color-stop(50%,/* rgba(12,16,255,1) */ #999999)/* priya(15-10-18) */, color-stop(79%,rgba(83,159,225,0.42)), color-stop(100%,rgba(135,188,234,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(208,228,247,0) 0%,rgba(115,177,231,0.48) 24%,/* rgba(12,16,255,1)  */#999999 50%,rgba(83,159,225,0.42) 79%,rgba(135,188,234,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(208,228,247,0) 0%,rgba(115,177,231,0.48) 24%,/* rgba(12,16,255,1)  */#999999 /* priya(15-10-18) */ 50%,rgba(83,159,225,0.42) 79%,rgba(135,188,234,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(208,228,247,0) 0%,rgba(115,177,231,0.48) 24%,/* rgba(12,16,255,1)  */#999999 /* priya(15-10-18) */ 50%,rgba(83,159,225,0.42) 79%,rgba(135,188,234,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(208,228,247,0) 0%,rgba(115,177,231,0.48) 24%,/* rgba(12,16,255,1) */#999999 /* priya(15-10-18) */ 50%,rgba(83,159,225,0.42) 79%,rgba(135,188,234,0) 100%); /* W3C */
+}
+
+/* Added by priya(12-10-18) for seperator gradient */ 
+
+.checkbox_width{
+	width: 23px; /* priya(15-10-18) */
+}
+
+.checkbox_left{
+	margin-left: 42px; /* priya(15-10-18) */
+}
+.checkbox_con{
+	margin-right:100px;/* priya(15-10-18) */
+}
+
+.metadatabtntab{
+	margin:-10px 0px 5px 0px;
+	
+}
+.sectionbordertop{
+	
+	border-top:2px solid #8f2627; ;
+}
+
+.metadatatab{
+	margin-top:-13px;
+}
+.mar_top{
+	margin-top:5px;/*  priya(16-10-18) */
+}
+.mar_right{
+margin-right:20px; /*  priya(16-10-18) */
+}
+.mar_left{
+margin-left: 8px; /*  priya(16-10-18) */
+}
+
+.checkbox_left1{
+	margin-left:-46px !important; /*  priya(17-10-18) */
+}
+.checkbox_left2{
+    margin-left:22px;/*  priya(26-10-18) */
+	}
+.checkbox_left3{
+	margin-left:38px;/*  priya(26-10-18) */
+}
+.checkbox_cen{
+	margin-left:30px;/*  priya(17-10-18) */
+} 
+.margin-left3{
+	margin-left:0px !important; /*  priya(17-10-18) */
+}
+.radiolable{
+	border:10px solid;
+}
+
+.contro_width{
+	width:10%;/*  priya(17-10-18) */
+}
+
+.delete_bot
+{
+	margin-bottom:2px !important;/*  priya(17-10-18) */
+}
+.form_pad{
+	padding-right:15px;/*  priya(17-10-18) */
+}
+
+.filegeneral{
+	
+	font-size: 12px;
+}
+
+.filegenerallable{
+	font-weight: bold;
+	font-size: 12px !important;
+}
+.folderimgheight{
+	
+	height:18px;
+	width:18px;
+
+}
+.foldertextcolor{
+	color:#333;
+}
+
+.foldertextcolor:hover{
+	color:#333;
+}
+
+.folderimgpadding{
+	
+	padding-bottom:10px;
+}
+
+.parsley-maxlength{
+	color:#f30000;
+}
+
+.parsley-pattern{
+	color:#f30000;
+}
+
+.parsley-required{
+	color:#f30000;
+}
+
+.error{
+	color:#f30000;
+}
+
+.btn_rht{
+	margin-right:10px;
+}
+
+.selectfield{
+	background-color:#e9ebee;
+}
+
+.alert_bord{
+	border: 1px solid #a1a1a1;/* priya(30-10-18) */
+	margin-top: 15px;/* priya(30-10-18) */
+	padding: 18px;/* priya(30-10-18) */
+}
+
+
+.tdheading{
+	font-weight:bold;
+	font-size: 12px;
+	text-align: right
+	
+}
+
+.tdtext{
+	font-size:12px;
+	padding-left:5px;
+	
+}
+.btn_top{
+	margin:0px 2px; /* priya(15-11-18) */
+}
+
+.imgheight{
+	height:13px;/* priya(16-11-18) */
+}
+/* The following styles are for this example only and do not affect the functionality */
+/*span { color: #fb3b3b }*/
+
+
+.pathwidth{
+	
+	min-width:20rem;
+}
+
+.rowtopmargin{
+	margin-top:6px !important;
+
+	
+}
+
+.dataTables_empty{
+text-align: left !important;
+padding-left:200px !important;
+	
+}
+.fileuploaddisabled{
+	pointer-events: none;
+	opacity: 0.2;
+}
+
+.media-bodyactive{
+	
+	background-color:#eff1f3;
+	color:#fff !important;
+	padding-left:8px;
+	font-weight: bold;
+
+	
+}
+
+.media-bodyactive, .media-headingactrive{
+	
+
+	font-weight: bold;
+
+	
+}
+.iconbg{
+	
+	background-color: #fff; 
+	height: 28px;
+	 width: 30px; 
+	 padding: 0px 6px 10px 5px;
+	  border-radius: 5px;
+	  float:left;
+}
+
+
+.menu-content li:hover{
+	
+	background-color:#002a46;
+
+	
+}
+
+.recevmargin{
+margin-bottom:10px;	
+	
+}
+
+.sectionbottom{
+	
+	margin-bottom: 0.675rem;
+}
+/*::-webkit-scrollbar	 {
+    width: 5px;
+    height:5px;
+    	scrollbar-width: thin !important;
+}
+ 
+::-webkit-scrollbar-track {
+	    width: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+.dataTables_scrollBody{
+	scrollbar-width: thin !important;
+	
+}
+
+html {
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}*/
+/*----------------------Multiselect Css------------------------------------------------*/
+
+span.multiselect-native-select {
+  position: relative;
+}
+
+span.multiselect-native-select select {
+  border: 0!important;
+  clip: rect(0 0 0 0)!important;
+  height: 1px!important;
+  margin: -1px -1px -1px -3px!important;
+  overflow: hidden!important;
+  padding: 0!important;
+  position: absolute!important;
+  width: 1px!important;
+  left: 50%;
+  top: 30px
+}
+
+.multiselect-container {
+  position: absolute;
+  list-style-type: none;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 12px 0px 0px;
+  height:200px;
+overflow-y:scroll;
+overflow-x:hidden;
+	width:250px;
+  
+}
+
+.multiselect-container a{
+	
+	color:#333333;
+}
+.multiselect-container .input-group {
+  margin: 5px
+}
+
+.multiselect-container>li {
+  padding: 0
+}
+
+.multiselect-container>li>a.multiselect-all label {
+  font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group label {
+  margin: 0;
+  padding: 3px 20px 3px 20px;
+  height: 100%;
+  font-weight: 700
+}
+
+.multiselect-container>li.multiselect-group-clickable label {
+  cursor: pointer
+}
+
+.multiselect-container>li>a {
+  padding: 0
+}
+
+.multiselect-container>li>a>label {
+  margin: 0;
+ 
+  cursor: pointer;
+  font-weight: 400;
+  padding: 3px 20px 3px 40px
+}
+
+.multiselect-container>li>a>label.radio,
+.multiselect-container>li>a>label.checkbox {
+  margin: 0;
+}
+
+.multiselect-container>li>a>label>input[type=checkbox] {
+  margin-bottom: 5px
+}
+
+.btn-group>.btn-group:nth-child(2)>.multiselect.btn {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px
+}
+
+.form-inline .multiselect-container label.checkbox,
+.form-inline .multiselect-container label.radio {
+  padding: 3px 20px 3px 40px
+}
+
+.form-inline .multiselect-container li a label.checkbox input[type=checkbox],
+.form-inline .multiselect-container li a label.radio input[type=radio] {
+  margin-left: -20px;
+  margin-right: 0
+}
+.selectbtn{
+	background-color:transparent ;
+	border:1px solid #c2c2c2;
+	padding:0px 0px 0px 0px;;
+	line-height: 0.2;
+}
+
+
+/*----------------------Multiselect Css------------------------------------------------*/
+
+.formmarginbottom{
+	
+margin-bottom: 0px;
+
+	
+}
+
+.buttonmargintop{
+	
+	margin-top:13px !important;	
+}
+
+select.dropdownheight{
+	
+	height: calc(1.5rem + 0px) !important;
+	
+}
+
+.DTFC_RightWrapper{
+	
+	right: -34px !important;
+}
+
+
+.multiselect::after{
+	top:8px;
+	
+}
+
+.thcenter{
+	text-align: center;
+	
+}
+.tdcenter{
+	text-align: center;
+	
+}
+.btn-smm{
+	
+	padding: 0.2rem 0.75rem;
+}
+.colpaddleft {
+padding-left:5px;
+	
+}
+
+.colpaddright{
+padding-right:5px;	
+	
+}
+
+.btnimg{
+	height:10px;
+	
+}
+.btn-smmm{
+	padding: 0.0rem 0.75rem;
+	
+}
+
+.btn-labelheaderr{
+	
+	background: rgba(0, 0, 0, 0.5);
+
+display: inline-block;
+
+
+
+margin: 0px 8px -1px -11px;
+
+padding: 7px 15px;
+}
+
+.removeicon{
+	height:20px;
+	
+}
+.inputmargin{
+	margin:5px 15px;
+
+	
+	
+}
+.input-group > .form-control:not(:first-child), .input-group > .custom-select:not(:first-child) {
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.input-group > .form-control:not(:last-child), .input-group > .custom-select:not(:last-child) {
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+h4, .h4 {
+    font-size: 1.2rem;
+}
+
+.heightremove{
+	
+	height:0px;
+	
+}
+.borderremove  {
+   border:0px solid;
+}
+.form-controlbottompad{
+	
+	margin-bottom: 5px;
+}
